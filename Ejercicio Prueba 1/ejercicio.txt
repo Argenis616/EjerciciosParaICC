@@ -1,0 +1,30 @@
+Ejercicios: 
+
+Se debera crear una estructura tipo proyecto que se vera de la siguiente forma: 
+.
+└── Entrada
+    ├── build.xml
+    └── src
+        └── icc
+            └── entrada
+                ├── Entrada.java
+                └── ImpresoraBinario.java
+Unicos archivos proporcionados: 
+build.xml
+ImpresoraBinario.java
+
+Recibir de los argumentos de java, 2 números con los cuales, se realizaron operaciones aritméticas sencillas, una vez operando estos resultado serán impresos tanto es su valor original como en binario con ayuda de la clase impresora binario. Todo esto haciendolo desde el método main implementado en el archivo Entrada.java que deberán crear por su cuenta.
+
+Modifcar: Se modificara el archivo build.xml de tal forma que ant resiva 2 parámetros para poder correr su programa directamente desde ant.
+
+HINT: hacer uso de las siguientes etiquetas
+<target>
+<java>
+<arg>
+Para mas información revisar 
+https://ant.apache.org/manual/index.html
+http://ant.apache.org/manual/Tasks/exec.html
+
+Operaciones:
+Haz una suma, multiplicación, división y una resta.
+
